@@ -1,0 +1,16 @@
+{
+    "seed": 777,
+    "epochs": 30,
+    "transform": "center",
+    "batch_size": 4,
+    "optim": "SGD",
+    "lr": 0.001,
+    "data_ratio": 0.3,
+    "criterion": "cross_entropy",
+    "weight_decay": 1e-2,
+    "model":"MyEfficientNet",
+    "lr_scheduler": "StepLR",
+    "random_split":1,
+    "sampler":"ImbalancedDatasetSampler",
+    "test":"etrain"
+}
